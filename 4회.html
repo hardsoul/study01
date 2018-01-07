@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <p>
+        ID를 4~15자로 만들면, 하이트리스트, <br/>
+        만족하지 않는것, 블랙리스트(실프이프문?으로 만족학하는곳)
+    </p>
+    <p>
+        문제 toggle(); 실행시 true, false를 반복해야한다.
+    </p>
+<script>
+//sw 스위치 약어
+// function toggle(){
+//     var sw = false;
+//     return sw = !sw;
+// }
+
+var toggle = (function () {
+  var sw = false;
+  return function (){
+    return sw = !sw;
+  }
+
+})();
+console.log(toggle()); //true;
+console.log(toggle()); //false;
+console.log(toggle()); //true;
+console.log(toggle()); //false;
+console.log(toggle()); //true;
+
+</script>
+
+    <p>
+        반복문
+        while(조건식){
+        로직
+        }
+        while(true){
+        무한루프
+        }
+        while(false){
+        바로넘겨
+        }
+
+        false로 간주된느것
+        flase, 0, "", undefined, null, NaN
+
+    </p>
+    <script>
+        // var i = 10;
+        // while (i--){
+        //   console.log(i);
+        // }
+    </script>
+
+    <P>
+        for문
+    </P>
+    <script>
+        for(var i = 10; i; i--){
+          console.log(i);
+        }
+    </script>
+    <p>
+        구구만 만들자.
+    </p>
+    <script>
+      // for (var i=1; i<=19; i++) {
+      //   console.log('========'+i+'단===== </br>');
+      //
+      //   for(var j=1; j<=19; j++){
+      //     var sum = i * j;
+      //     console.log(sum);
+      //   }
+      // }
+
+
+       function gugudan(dan , max) {
+         for (var i = 1; i <=(max ? max : 9); i++){
+           console.log(dan + '*' + i + ' = ' +dan * i);
+         }
+       };
+      gugudan(3);
+      gugudan(3, 4);
+    </script>
+    <scrip ></scrip>
+
+    <button id="btn">
+
+    </button>
+
+    <script src="jquery.js"></script>
+    <script src="4thhomework/homework01.js"></script>
+
+</body>
+</html>

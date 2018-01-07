@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div>
+        <input type="text">
+        <input type="number">
+        <input type="checkbox">
+    </div>
+    <div>
+        //실행
+        sum(1, 2);
+        sum(5, 6);
+        //선언
+        function sum(a, b){
+        //a, b에 대입됨
+        return a + b;
+        }
+        //sum = 이름
+        //a, b = 파라미터, 매개변수
+
+        //선언만으로는 아무일도 하지않아.
+
+
+        sum(1,2);
+        sum(2,5);
+        //호출 인자 = 파라미터에 할당될값
+        // return 값있을시 바로 반납.
+
+        //익명함수 = 이름이 없는 함수 === 함수가 값으로 할당될때
+        var sum = function(a, b){
+        //a, b에 대입됨
+        return a + b;
+        }
+        // 콜백함수 호출제어권, 인자, 이전하는 함수.
+
+        //사용자 코드만 작성 ㄴㄴ = 개발하는게 없어서
+        //마크업 개발자?
+        /*
+        <input type="text">
+        <input type="number">
+        <input type="checkbox">
+        만들어진걸 사용해..
+        * */
+        //개발자 관점
+        function $() {}
+        function on() {}
+        function alert() {}
+
+        //배열
+        var arr1 = [];// 배열 리터럴(검색해봐)
+        var arr2 = new Array();
+        //객체
+        var obj1 = {}; // 객체 리터럴
+        var obj2 = new Object();
+        //숫자 4 = 수자 4리터럴 최소단위  1+3도 4지만 최소단위가 아니야.(선언할떄 최소단위)
+        //가독성이나 속도나 위에게 좋아. 위에것을 사용하자.
+
+        // 배열
+
+        var arr = [1,2,3,4,5];
+        var arr1 = ["값", "값"];
+        var arr2 =[
+        1+2,
+        a(),
+        b === function(){}
+        ];
+
+        var colors = [
+        "red",
+        "blue"
+        ];
+
+        var weeks =[
+        "mon",
+        "tue"
+        ];
+        colors[0];
+        weeks[0];
+
+
+        colors[값];
+        weeks[값];
+
+
+        colors[1-1];
+        weeks[sum(1,1)];
+
+
+        //객체
+        var person = {
+        name : 'suho',
+        age: 33
+        };
+        // key : 식별자 변수 , vlue :값
+        //
+        // 키 : 값,
+        // 키 : 값
+
+        person.name;
+        person.age;
+
+        person[name];
+        person.[age];
+
+        person["na"+"me"];
+        person.[abc()];
+
+
+        var person = {
+        eat : function () {
+
+        }
+        };
+        person.eat();
+
+        //배열과 객체도 값이다.
+        //객체지향 프로그래밍-객체와 객체가 값을 주고받는거
+
+        //조건문
+        //문
+        if(값){}
+    </div>
+    <p>
+        기능을 만들고, 뷰단을 만들어야해..
+        html,css를 하고있으면 기능을 만들시간이 없을수도 있어..
+    </p>
+
+</body>
+</html>

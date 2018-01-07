@@ -1,0 +1,26 @@
+{
+  "name": "study01",
+  "version": "1.0.0",
+  "description": "## h2",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hardsoul/study01.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hardsoul/study01/issues"
+  },
+  "homepage": "https://github.com/hardsoul/study01#readme",
+  "devDependencies": {
+    "jest": "^22.0.4"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
